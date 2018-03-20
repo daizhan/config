@@ -1,0 +1,53 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "default",
+
+    "vim.hlsearch": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["?"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "actions.find",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["/"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "actions.find",
+                    "args": []
+                }
+            ]
+        }
+    ],
+
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.panel.location": "bottom",
+
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false,
+
+    "files.eol": "\n",
+
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ],
+    "eslint.autoFixOnSave": true
+}
